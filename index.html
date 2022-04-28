@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I want to find the ISS</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="./leaflet.css" />
+    <script src="./leaflet.js"></script>
+
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <h1>Find the ISS</h1>
+    <h2>with the help of LONG and LAT data <br> we can view in real-time  where the ISS is thanks to the <a class="apiText" href="https://wheretheiss.at/w/developer" >"WHERE THE ISS AT?" API</a> and leafletJS spectacular library </h2>
+    <main class="mainContainer">
+        <div class="apiContainer">
+            <h2>map <br> (mercator projection) <span style="font-size: 0.5rem;">per 5s intervals</span></h2>
+            <div id="map" class="map"></div>
+            <h3 class="long"> longitude: <span style="color: black;" id="long"></span></h3>
+            <h3 class="lat">Latitude: <span style="color: black;" id="lat"></span></h3>
+        </div>
+        
+    </main>
+    <h1 style="color:beige;">FOCUS MODE</h1>
+    <footer style="color: rgb(101, 101, 101)"> developed by <a style="color: lightblue;" href="http://daniel-frontend-portfoilio-site.netlify.app/">Daniel Msangi</a></footer>
+</body>
+</html>
