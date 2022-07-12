@@ -48,15 +48,15 @@ h2{
     justify-content: center;
     transition: all 0.5s;
 }
-.mainContainer:hover{
-    border: solid lightblue 4px;
+/* .mainContainer:hover{
+    border: solid lightblue 1px;
     transition: all 0.3s;
 
-}
+} */
 .apiContainer{
 /* border: solid red 2px; */
 width: 80%;
-height: auto;
+height: 80%;
 display: flex;
 flex-direction: column;
 align-items: center;
